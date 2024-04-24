@@ -1,12 +1,6 @@
 # FUSEDB
 
-.########.##.....##..######..########....########..########.
-.##.......##.....##.##....##.##..........##.....##.##.....##
-.##.......##.....##.##.......##..........##.....##.##.....##
-.######...##.....##..######..######......##.....##.########.
-.##.......##.....##.......##.##..........##.....##.##.....##
-.##.......##.....##.##....##.##..........##.....##.##.....##
-.##........#######...######..########....########..########.
+![Logo](https://github.com/kd993595/fusedb/blob/main/logo.jpg "Fusde DB logo")
 
 ## Description
 
@@ -24,19 +18,17 @@ go get github.com/kd993595/fusedb
 Currently in development so only supports a subset of ANSI SQL, primarily the basic commands, no subquery currently supported
 * Select
 * Insert
-* Update
-* Delete
 * Create
 
 Some features still in development:
-[ ] B+Tree indexing
-[ ] ACID compliance
-[ ] Transaction Manager
-[ ] All Golang types
+- [ ] B+Tree indexing
+- [ ] ACID compliance
+- [ ] Transaction Manager
+- [ ] All Golang types
 
 ## Example Usage
 
-```
+```golang
 package main
 
 import (
@@ -104,3 +96,4 @@ func main() {
 ```
 
 ## License
+[license](./LICENSE)
